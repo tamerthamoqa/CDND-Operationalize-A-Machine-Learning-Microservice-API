@@ -51,6 +51,7 @@ __Note__: The API would be served on port 8000
 ## Project Files
 
 * __.circleci/config.yml:__ CircleCI configuration file.
+* __hadolint:__ Hadolint v1.18.0 Linux-86_64 executable. 
 * __app.py:__ The Flask web application
 * __model_data/boston_housing_prediction.joblib:__ Pretrained sklearn model
 * __requirements.txt:__ Required Python packages to run the application
