@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 # This file tags and uploads an image to Docker Hub
 
@@ -11,8 +12,8 @@ dockerpath=tamerthamoqa/udacity-devops-project4
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login --username=tamerthamoqa
-docker tag udacity-devops-project4 tamerthamoqa/udacity-devops-project4
+docker tag udacity-devops-project4 $dockerpath
 
 # Step 3:
 # Push image to a docker repository
-docker push tamerthamoqa/udacity-devops-project4
+docker push $dockerpath
